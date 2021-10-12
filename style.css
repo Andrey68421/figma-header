@@ -1,0 +1,355 @@
+@font-face
+{
+	font-family: Open Sans;
+	src: url("font/OpenSans.ttf");
+	font-style: normal;
+	font-weight: 400;
+}
+
+*
+{
+	margin: 0;
+}
+
+.head-info-bar
+{
+	background: #F8F8F8;
+	width: 100%;
+	height: 36px;
+}
+
+.town > p
+{
+	display: inline;
+	padding-left: 5px;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.list a
+{
+	display: inline;
+	text-decoration: none ;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+}
+
+.li-1 .li-2
+{
+	display: inline;
+	margin-right: 10px;
+	margin: 20px;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+
+}
+
+.info-number
+{
+	padding-left: 100px;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.info-bar
+{
+	padding-top: 7px;
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+}
+
+.logo
+{
+	margin-left: 225px;
+	margin-top: 60px;
+}
+
+.search 
+{
+	position: absolute;
+	top: 85px;
+	margin-left: 410px ;
+	padding-top: 0px;
+}
+
+.field
+{
+	width: 345px;
+	height: 44px;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.head-container
+{
+	width: 100%;
+	height: 48px;
+}
+
+.btn-1
+{
+	position: absolute;
+	height: 44px;
+	width: 56px;
+	background: #E0001B;
+	border: none;
+	cursor: pointer;
+	border-radius:3px ;
+}
+
+
+.favorites
+{
+	display: inline;
+	width: 110px;
+	height: 44px;
+	border: none;
+	background: white;
+}
+
+.scales
+{
+	display: inline;
+	width: 110px;
+	height: 44px;
+	border: none;
+	background: white;
+}
+
+.backet
+{
+	display: inline-block;
+	width: 110px;
+	height: 44px;
+	border: none;
+	background: white;
+}
+
+.lover p
+{
+	width: 15px;
+	height: 15px;
+	display: inline;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.line-1 p
+{
+	width: 15px;
+	height: 15px;
+	display: inline;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.line-2 p
+{
+	width: 17px;
+	height: 17px;
+	display: inline;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height:50px;
+}
+
+.backet:hover
+{
+	background: #1D1D1B;
+	opacity: 0.04;
+	cursor: pointer;
+}
+
+.favorites:hover
+{
+	background: #1D1D1B;
+	opacity: 0.04;
+	cursor: pointer;
+}
+
+.scales:hover
+{
+	background: #1D1D1B;
+	opacity: 0.04;
+	cursor: pointer;
+}
+
+.btn-container
+{
+	position: absolute;
+	margin-left: 825px;
+	display: flex;
+	gap: 5px;
+	top: 85px;
+}
+
+.first-line
+{
+	border: none; 
+    background-color: white; 
+    color: white; 
+    height: 1px;
+    width: 20px;
+}
+
+.middle-line
+{
+	border: none; 
+    background-color: white; 
+    color: white; 
+    height: 2px;
+    width: 20px;
+
+}
+
+.last-line
+{
+	border: none; 
+    background-color: white; 
+    color: white; 
+    height: 1px;
+    width: 15px;
+}
+
+.catalog
+{
+	position: absolute;
+	width: 136px;
+	height: 44px;
+	background: #E0001B;
+	border: none;
+	margin-left: 225px;
+	margin-top: 0px;
+}
+
+.list-1
+{
+	padding-top: 15px;
+	padding-left: 10px;
+	line-height:5px;
+
+}
+
+.name
+{
+	position: relative;
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	padding-left: 30px;
+	bottom: 15px;
+}
+
+.list-2 li
+{
+	display: inline;
+}
+
+.navigation-bar
+{
+	width: 100%;
+	background-color: white;
+	height: 44px;
+	margin-top: 30px;
+}
+
+.nav-bar
+{
+	position: absolute;
+	opacity: 0.12;
+	width: 790px;
+	height: 44px;
+	margin-left: 360px;
+	display: flex;
+	justify-content: space-around;	
+}
+
+.a-1 
+{
+	margin-right: 15px;
+	text-decoration: none;
+	color: black;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+
+}
+
+.a-2
+{
+	margin-right: 15px;
+	text-decoration: none;
+	color: black;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.a-3
+{
+	margin-right: 15px;
+	text-decoration: none;
+	color: black;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.a-4
+{
+	margin-right: 15px;
+	text-decoration: none;
+	color: black;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.a-5
+{
+	margin-right: 15px;
+	text-decoration: none;
+	color: black;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+	color: red;
+}
+
+.inline-a img
+{
+	padding-top: 10px;
+}
+
